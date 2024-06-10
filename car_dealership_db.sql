@@ -88,7 +88,10 @@ VALUES (555, 10112),
 -- populate the lease_contracts table
 INSERT INTO lease_contracts (contract_type, date, name, email, vin, total_cost, finance)
 VALUES ('BUY', '2024-05-31', 'Syd', 'syd@email.com', 44444, 109095.00*1.15, true),
+	('BUY', '2024-05-11', 'Chris', 'christ@email.com', 19194, 14035.00*1.15, true),
 	('LEASE', '2024-04-12', 'Phillip', 'phillip@email.com', 12345, 20995.00*1.25, false),
+    ('LEASE', '2024-04-02', 'Phillip', 'phillip@email.com', 25231, 20995.00*1.25, false),
+    ('BUY', '2024-06-12', 'Anisa', 'anisa@email.com', 10101, 220000.00*1.25, false),
 	('LEASE', '2024-06-02', 'Anisa', 'anisa@email.com', 88822, 11010.00*1.25, false)
 ;
 
